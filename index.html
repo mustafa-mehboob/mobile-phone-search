@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Faster One' rel='stylesheet'>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div class="navbar">
+
+            <h1>Sell Your Mobile</h1>
+
+        </div>
+
+        <div class="header">
+            <a class="header-a" href="./index.html">
+                <img  class="m-logo" src="./imgs/mlogo.png" alt="">
+            </a>
+
+            <div class="dropdown" >
+                <button id="dropdown" class="dropbtn">ALL CATEGORIES
+                    <svg class="dropbtn-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512" >
+                        <!--! Font Awesome Pro 6.1.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+                        <path
+                            d="M311.9 335.1l-132.4 136.8C174.1 477.3 167.1 480 160 480c-7.055 0-14.12-2.702-19.47-8.109l-132.4-136.8C-9.229 317.8 3.055 288 27.66 288h264.7C316.9 288 329.2 317.8 311.9 335.1z" />
+                    </svg>
+                </button>
+                <div class="dropdown-content">
+                    <a class="a-font" href="#">Iphone</a>
+                    <a class="a-font" href="#">Samsung</a>
+                </div>
+            </div>
+
+            <form class="search" role="search">
+                <input id="input" class="search-input" type="text" placeholder="Search.." name="search">
+                <button onClick="search();" type="button" class="search-btn" ><i class="fa fa-search search-icon"></i></button>
+            </form>
+
+
+
+        </div>
+
+        <div class="main-body">
+
+            <div class="body-itens">
+
+                <div class="cards">
+                    <img class="card-img" src="./imgs/iphone_13_pro.jpg" alt="">
+
+                    <h4 class="card-h4">iPhone 13 Pro</h4>
+
+                    <p class="card-p">The ultimate iPhone.</p>
+                    <span class="card-span">From $999</span>
+                    <button class="card-btn">Buy</button>
+                </div>
+                <div class="cards">
+                    <img class="card-img" src="./imgs/iphone_13.jpg" alt="">
+                    <h4 class="card-h4">iPhone 13</h4>
+
+                    <p class="card-p">A total powerhouse.</p>
+                    <span class="card-span">From $699</span>
+                    <button class="card-btn">Buy</button>
+                </div>
+                <div class="cards">
+                    <img class="card-img" src="./imgs/iphone_12.jpg" alt="">
+                    <h4 class="card-h4">iPhone 12</h4>
+
+                    <p class="card-p">As amazing as ever.</p>
+                    <span class="card-span">From $599</span>
+                    <button class="card-btn">Buy</button>
+                </div>
+                <div class="cards">
+                    <img class="card-img" src="./imgs/iphone_se.jpg" alt="">
+                    <h4 class="card-h4">iPhone SE</h4>
+
+                    <p class="card-p">Serious power. Serious value.</p>
+                    <span class="card-span">From $429</span>
+                    <button class="card-btn">Buy</button>
+                </div>                
+                <div class="cards">
+                    <img class="card-img" src="./imgs/samsung-galaxy-s22-ultra.jpg" alt="">
+                    <h4 class="card-h4">Galaxy S22 Ultra</h4>
+
+                    <p class="card-p">Galaxy's fastest chipset and best camera.</p>
+                    <span class="card-span">From $1199</span>
+                    <button class="card-btn">Buy</button>
+                </div>
+                <div class="cards">
+                    <img class="card-img" src="./imgs/samsung-galaxy-note20-ultra.jpg" alt="">
+                    <h4 class="card-h4">Galaxy Note20 Ultra</h4>
+
+                    <p class="card-p">powerful performance plus S pen.</p>
+                    <span class="card-span">From $1299</span>
+                    <button class="card-btn">Buy</button>
+                </div>
+                <div class="cards">
+                    <img class="card-img" src="./imgs/samsung-galaxy-m51.jpg" alt="">
+                    <h4 class="card-h4">Galaxy M51</h4>
+
+                    <p class="card-p">power and speed  at a price you'll love</p>
+                    <span class="card-span">From $409</span>
+                    <button class="card-btn">Buy</button>
+                </div>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="mobile-container" id="none1">
+            <div class="row">
+                <div class="col">
+                    <div class="mobile" id="div12">
+    
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div> 
+
+
+    </div>
+
+
+    <script src="app.js"></script>
+
+</body>
+
+</html>
